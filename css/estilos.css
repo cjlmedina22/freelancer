@@ -66,6 +66,15 @@ h1,h2,h3 {
    }
 }
 
+.sombra {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+-moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+background-color: var(--blanco);
+padding: 2rem;
+border-radius: 1rem;
+}
+
 .nav-bg {
     background-color: var(--secundario);
 }
@@ -96,13 +105,14 @@ color: var(--oscuro);
 }
 
 
-
+/* hero */
 .hero {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero {
