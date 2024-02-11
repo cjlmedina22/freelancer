@@ -133,7 +133,16 @@ justify-content: center;
     color: var(--blanco);
 }
 
-.ubicacion {
+.contenido-hero .ubicacion {
     display: flex;
     align-items: flex-end;
+}
+
+/** Servicios **/
+
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }   
 }
